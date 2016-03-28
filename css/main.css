@@ -1,0 +1,38 @@
+html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+@media only screen and (min-width: 25em) {
+
+  img:nth-child(2) {
+    float: left;
+    width: 50%;
+  }
+
+  img:nth-child(3){
+    float: left;
+    width: 50%;
+  }
+  img:nth-child(4){
+    float: left;
+    width: 50%;
+  }
+  img:nth-child(5) {
+    float: left;
+    width: 50%;
+  }
+
+}
